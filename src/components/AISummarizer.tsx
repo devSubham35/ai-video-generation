@@ -85,7 +85,6 @@ export default function TextSummarizer({ meta, setMeta, loading, setLoading }: T
           </div>
         )}
 
-        Output
         {meta?.prompt && (
           <div className="bg-[#0f0f0f] border border-white/10 rounded-xl p-4 space-y-2">
             <p className="text-xs uppercase tracking-wide text-gray-400">
