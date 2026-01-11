@@ -47,7 +47,7 @@ export default function TextSummarizer({ meta, setMeta, loading, setLoading }: T
 
   return (
     <>
-      <div className="w-full max-w-3xl bg-[#141414] border border-white/10 rounded-2xl shadow-xl p-6 space-y-6">
+      <div className="w-full max-w-3xl bg-[#141414] border border-white/10 rounded-2xl shadow-xl p-6 space-y-4 md:space-y-6">
         {/* Header */}
         <div className="text-center space-y-1">
           <h1 className="text-2xl font-semibold tracking-tight">

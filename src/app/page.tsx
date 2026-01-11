@@ -35,7 +35,7 @@ const HomePage = () => {
 
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-[#0f0f0f] to-[#1a1a1a] text-gray-100 p-6 flex justify-between gap-8">
+    <div className="min-h-screen bg-linear-to-br from-[#0f0f0f] to-[#1a1a1a] text-gray-100 p-6 flex flex-col md:flex-row md:justify-between gap-4 md:gap-8">
       <TextSummarizer
         meta={meta}
         loading={loading}
